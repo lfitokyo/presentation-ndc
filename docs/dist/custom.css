@@ -7,7 +7,7 @@
     --r-main-font-size: 42px;
     --r-main-color: #222;
     --r-block-margin: 0px;
-    --r-heading-margin: 20px 0 20px 0;
+    --r-heading-margin: 15px 0 25px 0;
     --r-heading-font: monospace;
     --r-heading-color: #222;
     --r-heading-line-height: 1.2;
@@ -16,9 +16,9 @@
     --r-heading-text-shadow: none;
     --r-heading-font-weight: 600;
     --r-heading1-text-shadow: none;
-    --r-heading1-size: 2.5em;
-    --r-heading2-size: 1.3em;
-    --r-heading3-size: 1.2em;
+    --r-heading1-size: 2em;
+    --r-heading2-size: 1em;
+    --r-heading3-size: 0.8em;
     --r-heading4-size: 1em;
     --r-code-font: monospace;
     --r-link-color: #2a76dd;
@@ -46,6 +46,10 @@ li {
 }
 
 video {
+    border-radius:5px;
+}
+
+img {
     border-radius:5px;
 }
 
